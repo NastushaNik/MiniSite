@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="C:\xampp\php\PEAR" />
+      <path value="C:\xampp\htdocs" />
+      <path value="C:\xampp\php\pear\PEAR" />
+    </include_path>
+  </component>
+</project>
