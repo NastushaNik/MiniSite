@@ -9,15 +9,18 @@
 </head>
 <body>
     <div class="menu">
-        <a href="/index.php?controller=books">Books</a>
+        <a href="/index.php?controller=books&amp;action=list">Books</a>
         <a href="/index.php?controller=feedback">Feedback messages</a>
         <a href="/index.php?controller=security">Logout</a>
     </div>
 
     <hr>
 
+
+    <?//='flash message';//вывод сообщения о добавлении книги?>
+
     <div class="content">
-        DYMAMIC CONTENT
+        <?=$content?>
 
     </div>
 

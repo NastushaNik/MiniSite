@@ -6,8 +6,22 @@
  * Time: 7:28
  */
 
-$controller = $_GET['controller'];
+require 'functions.php';
 
-require '{$controller}.php';
+//$controller = $_GET['controller'];
+//аналогия со строкой выше, но уже с проверкой на наличии ключа
+// в файле function.php, если ключа нет, открываем страницу
+// по умолчанию books.php
+$controller = requestGet('controller', 'books');
+
+$controllerFile = "{$controller}.php";
+
+// в файле function.php, если ключа нет
+if (!file_exists($controllerFile)){
+    // по умолчанию books.php
+    $controllerFile = 'books.php';
+}
+
+require $controllerFile;
 
 require 'layout.phtml';

@@ -1,0 +1,3 @@
+a:3:{s:2:"id";s:2:"15";s:5:"title";s:8:"My Title";s:5:"price";s:2:"23";}
+a:3:{s:2:"id";s:1:"5";s:5:"title";s:10:"Your Title";s:5:"price";s:2:"15";}a:3:{s:5:"title";s:12:"Harry Potter";s:5:"price";s:3:"555";s:2:"id";i:51173;}
+a:3:{s:5:"title";s:12:"Harry Potter";s:5:"price";s:3:"555";s:2:"id";i:51406;}
